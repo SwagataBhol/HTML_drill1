@@ -5,65 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="challenge1.css">
+    <style>
+        /* #outer{
+            height:600px;
+            width: 600px;
+            background-color: grey;
+            border-radius: 5px;
+            margin:auto;
+        }
+        .circle{
+            height: 15px;
+            width: 15px;
+            border-radius:10px;
+            margin-top:8px;
+            margin-left:8px;
+            float:left;
+             
+        }
+        #circle_1{
+            background-color: green;
 
-<style>
-    
-    .flex-container {
-        height: 500px;
-        width:500px;
-        display: flex;
-         background-color: white; 
-         flex-direction: row;
-    }
-    .flex-outter {
-        height: 550px;
-        width: 550px;
+        }
+        #circle_2{
+            background-color: yellow;
+        }
+        #circle_3{
+            background-color: red;
+        }
+        #white{
+            height:515px;
+            width:590px;
+            margin:auto;
+            background-color: white;
+            position:relative;
+            top:80px;    
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            color: white;
+        }
+        #box1{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+        }
+      
+    .box{
+        float:right;
+        margin-left:5px ;
+        position: relative;
+        bottom: 100px;
+        font-size: 15px;
+
+    } */
+
+
+
         
-        display: flex;
-        background-color: grey;
-    }
-    
-    
-    .flex-div1{
-        height:100px;
-    width:100px;
-    background-color:black;
-    color:white;
-    margin-left: 10px;
-    margin-top:20ps;
-    }
-    
-    .flex-div2{
-        height:100px;
-    width:100px;
-    /* justify-content: flex-right; */
-    background-color:black;
-    color:white;
-    display: flex;
-    
-    }
-    .flex-div3{
-        height:100px;
-    width:100px;
-    background-color:black;
-    color:white;
-   
-    }
-
-
     </style>
-
 </head>
-<body>
-    <div class="flex-outter">
-    <div class= "flex-container" id="white">
-        <div class="flex-div1">div1</div>
-        <div class="flex-div2">div2</div>
-        <div class="flex-div3">div3</div>
-    </div>
-    </div>
 
+<body>
+    <div id="outer">
+        <div class="circle" id="circle_1"></div>
+        <div class="circle" id="circle_2"></div>
+        <div class="circle" id="circle_3"></div>
+        <div id="white">
+            <div class="box1-1" id="box1">div1</div>
+            <div class="box" >div2</div>
+            <div class="box" >div3</div>
+
+        </div>
+    </div>
     
 </body>
 </html>
-

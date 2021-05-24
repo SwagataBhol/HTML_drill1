@@ -1,0 +1,61 @@
+#outer{
+    height:600px;
+    width: 600px;
+    background-color: grey;
+    border-radius: 5px;
+    margin:auto;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius:10px;
+    margin-top:8px;
+    margin-left:8px;
+    float:left;
+    
+}
+#circle_1{
+    background-color: green;
+
+}
+#circle_2{
+    background-color: yellow;
+}
+#circle_3{
+    background-color: red;
+}
+#white{
+    height:535px;
+    width:590px;
+    margin:auto;
+    background-color: white;
+    position:relative;
+    top:60px;    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+   
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    position: relative;
+    right: 65px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+
+.box{
+float:right;
+margin-left:5px ;
+position: relative;
+bottom: 100px;
+font-size: 15px;
+
+}

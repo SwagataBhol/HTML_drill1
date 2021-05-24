@@ -1,0 +1,73 @@
+#outer{
+    height:600px;
+    width: 600px;
+    background-color: grey;
+    border-radius: 5px;
+    margin:auto;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius:10px;
+    margin-top:8px;
+    margin-left:8px;
+    float:left;
+    
+}
+#circle_1{
+    background-color: green;
+
+}
+#circle_2{
+    background-color: yellow;
+}
+#circle_3{
+    background-color: red;
+}
+#white{
+    height:545px;
+    width:590px;
+    margin:auto;
+    background-color: white;
+    position:relative;
+    top:50px;    
+}
+.box{
+    height: 130px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+   
+}
+#box1{
+    height: 130px;
+    width: 130px;
+    display:flex;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right:65px;
+}
+#box2{
+    position: relative;
+    bottom: 300px;
+    top: 10px;
+    left:230px;
+}
+#box3{
+    position: relative;
+    top: 60px;
+    left: 460px;
+}
+
+/* .box{
+float:right;
+margin-left:5px ;
+position: relative;
+bottom: 100px;
+font-size: 15px;
+
+} */
